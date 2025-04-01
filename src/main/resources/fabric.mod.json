@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "better_end_islands",
+	"version": "${version}",
+	"name": "Better End Islands",
+	"description": "The End Update Mojang Could Never Do",
+	"authors": [
+		"ManInTheBag - Developer",
+		"PinkFatDinosaur - Music Producer"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/better_end_islands/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.maninthebag.better_end_islands.BetterEndIslands"
+		],
+		"fabric-datagen": [
+			"net.maninthebag.better_end_islands.BetterEndIslandsDataGenerator"
+		],
+		"client": [
+			"net.maninthebag.better_end_islands.BetterEndIslandsClient"
+		]
+	},
+	"mixins": [
+		"better_end_islands.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

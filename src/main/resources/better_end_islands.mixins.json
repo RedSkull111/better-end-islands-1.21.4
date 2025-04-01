@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.maninthebag.better_end_islands.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
