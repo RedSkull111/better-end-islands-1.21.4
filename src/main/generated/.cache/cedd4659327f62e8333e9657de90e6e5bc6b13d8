@@ -1,0 +1,6 @@
+// 1.21.4	-999999999-01-01T00:00:00	Better End Islands/Tags for minecraft:block
+29c41bdf8150cb0fcdf7601a0af81de306e02956 data/better_end_islands/tags/block/chorus_logs.json
+66cfd3057d083081c76b5efb34a1a56c97d9e336 data/minecraft/tags/block/logs_that_burn.json
+66cfd3057d083081c76b5efb34a1a56c97d9e336 data/minecraft/tags/block/mineable/axe.json
+166f36d5c986f910a3fa1ec1407216f216a2b8e9 data/minecraft/tags/block/mineable/pickaxe.json
+166f36d5c986f910a3fa1ec1407216f216a2b8e9 data/minecraft/tags/block/needs_stone_tool.json

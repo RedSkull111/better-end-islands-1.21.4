@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "better_end_islands:chorus_log"
+  ],
+  "result": {
+    "count": 4,
+    "id": "better_end_islands:chorus_planks"
+  }
+}

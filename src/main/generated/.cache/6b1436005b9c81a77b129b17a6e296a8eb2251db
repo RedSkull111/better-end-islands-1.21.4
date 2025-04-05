@@ -1,0 +1,7 @@
+// 1.21.4	-999999999-01-01T00:00:00	Better End Islands/Block Loot Tables
+a8fb2544fb36f7967072be19c757c0b48238288a data/better_end_islands/loot_table/blocks/chorus_log.json
+d299d02cb5fa418c35f20b2b5d6a98b4c23c4607 data/better_end_islands/loot_table/blocks/chorus_planks.json
+c626c05e7976ad342cc9cee53106b1497bc4bf1a data/better_end_islands/loot_table/blocks/chorus_wood.json
+8e88f1cb34832e146affb9461e6e569dabe9b692 data/better_end_islands/loot_table/blocks/stripped_chorus_log.json
+c216b2c432f56b941e2c80815c6ef3b68f001794 data/better_end_islands/loot_table/blocks/stripped_chorus_wood.json
+866786d57dc9b6d4d57d4c57c9df06a5bb9d94d5 data/better_end_islands/loot_table/blocks/test_block.json
