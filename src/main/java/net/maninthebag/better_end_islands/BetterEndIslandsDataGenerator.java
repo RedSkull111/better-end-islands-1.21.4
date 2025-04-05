@@ -5,6 +5,10 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.maninthebag.better_end_islands.datagen.*;
+import net.maninthebag.better_end_islands.world.ModConfiguredFeatures;
+import net.maninthebag.better_end_islands.world.ModPlacedFeatures;
+import net.minecraft.registry.RegistryBuilder;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import org.jetbrains.annotations.Nullable;
 
@@ -24,15 +28,9 @@ public class BetterEndIslandsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 	}
 
-	private static class BlockItemTagProvider extends FabricTagProvider.ItemTagProvider {
-
-		public BlockItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture, @Nullable BlockTagProvider blockTagProvider) {
-			super(output, completableFuture, blockTagProvider);
-		}
-
-		@Override
-		protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-
-		}
+	@Override
+	public void buildRegistry(RegistryBuilder registryBuilder) {
+		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 }

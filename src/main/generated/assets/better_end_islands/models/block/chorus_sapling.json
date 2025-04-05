@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "better_end_islands:block/chorus_sapling"
+  }
+}

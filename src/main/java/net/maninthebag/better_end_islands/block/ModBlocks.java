@@ -1,6 +1,7 @@
 package net.maninthebag.better_end_islands.block;
 
 import net.maninthebag.better_end_islands.item.ModItems;
+import net.maninthebag.better_end_islands.world.tree.ModSaplingGenerators;
 import net.minecraft.block.*;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.maninthebag.better_end_islands.BetterEndIslands;
@@ -28,7 +29,7 @@ public class ModBlocks {
 
     public static final Block CHORUS_LEAVES = registerBlock("chorus_leaves", LeavesBlock::new, AbstractBlock.Settings.copy(Blocks.OAK_LEAVES));
 
-    public static final Block CHORUS_SAPLING = registerBlock("chorus_sapling", settings -> new SaplingBlock(SaplingGenerator.OAK,settings),AbstractBlock.Settings.copy(Blocks.OAK_SAPLING));
+    public static final Block CHORUS_SAPLING = registerBlock("chorus_sapling", settings -> new SaplingBlock(ModSaplingGenerators.CHORUS,settings),AbstractBlock.Settings.copy(Blocks.OAK_SAPLING));
 
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
         final Identifier identifier = Identifier.of(BetterEndIslands.MOD_ID, name);
