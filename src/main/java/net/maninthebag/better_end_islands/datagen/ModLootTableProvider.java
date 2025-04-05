@@ -18,13 +18,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CHORUS_LOG);
         addDrop(ModBlocks.CHORUS_WOOD);
 
-        //addDrop(ModBlocks.CHORUS_LEAVES, leavesDrops(ModBlocks.CHORUS_LEAVES, ModBlocks.CHORUS_SAPLING, 0.0625f));
+        addDrop(ModBlocks.CHORUS_LEAVES, leavesDrops(ModBlocks.CHORUS_LEAVES, ModBlocks.CHORUS_SAPLING, 0.0625f));
 
         addDrop(ModBlocks.STRIPPED_CHORUS_LOG);
         addDrop(ModBlocks.STRIPPED_CHORUS_WOOD);
 
         addDrop(ModBlocks.CHORUS_PLANKS);
-        //addDrop(ModBlocks.CHORUS_SAPLING);
+        addDrop(ModBlocks.CHORUS_SAPLING);
 
         addDrop(ModBlocks.TEST_BLOCK, ModItems.TEST_ITEM);
     }

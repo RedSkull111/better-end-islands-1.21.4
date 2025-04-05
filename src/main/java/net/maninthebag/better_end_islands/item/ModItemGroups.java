@@ -26,7 +26,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHORUS_PLANKS);
 
                         entries.add(ModBlocks.CHORUS_LEAVES);
-                        //entries.add(ModBlocks.CHORUS_SAPLING);
+                        entries.add(ModBlocks.CHORUS_SAPLING);
 
                         entries.add(ModBlocks.TEST_BLOCK);
 
