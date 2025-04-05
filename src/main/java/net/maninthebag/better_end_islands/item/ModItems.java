@@ -24,9 +24,5 @@ public class ModItems {
     
     public static void registerModItems() {
         BetterEndIslands.LOGGER.info("Registering Mod Items for " + BetterEndIslands.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(TEST_ITEM);
-        });
     }
 }
