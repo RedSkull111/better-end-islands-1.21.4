@@ -1,5 +1,6 @@
 package net.maninthebag.better_end_islands.world;
 
+import com.google.common.collect.ImmutableList;
 import net.maninthebag.better_end_islands.BetterEndIslands;
 import net.maninthebag.better_end_islands.block.ModBlocks;
 import net.minecraft.registry.Registerable;
@@ -14,14 +15,17 @@ import net.minecraft.world.gen.feature.TreeFeatureConfig;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.treedecorator.LeavesVineTreeDecorator;
+import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
 import net.minecraft.world.gen.trunk.MegaJungleTrunkPlacer;
+import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
 public class ModConfiguredFeatures {
 
-    public static final RegistryKey<ConfiguredFeature<?, ?>> CHORUS_KEY = registryKey("chorus");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> CHORUS_TREE_KEY = registryKey("chorus");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
-        register(context, CHORUS_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+        register(context, CHORUS_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.CHORUS_LOG),
                 new MegaJungleTrunkPlacer(10,2,19),
                 BlockStateProvider.of(ModBlocks.CHORUS_LEAVES),
@@ -37,4 +41,6 @@ public class ModConfiguredFeatures {
                                                                                    RegistryKey<ConfiguredFeature<?, ?>> key, F feature, FC configuration) {
         context.register(key, new ConfiguredFeature<>(feature, configuration));
     }
+
+
 }

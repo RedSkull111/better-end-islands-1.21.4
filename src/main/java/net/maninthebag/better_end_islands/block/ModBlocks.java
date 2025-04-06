@@ -29,7 +29,7 @@ public class ModBlocks {
 
     public static final Block CHORUS_LEAVES = registerBlock("chorus_leaves", LeavesBlock::new, AbstractBlock.Settings.copy(Blocks.OAK_LEAVES));
 
-    public static final Block CHORUS_SAPLING = registerBlock("chorus_sapling", settings -> new SaplingBlock(ModSaplingGenerators.CHORUS,settings),AbstractBlock.Settings.copy(Blocks.OAK_SAPLING));
+    public static final Block CHORUS_SAPLING = registerBlock("chorus_sapling", settings -> new SaplingBlock(ModSaplingGenerators.CHORUS_TREE,settings),AbstractBlock.Settings.copy(Blocks.DARK_OAK_SAPLING));
 
     private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> factory, AbstractBlock.Settings settings) {
         final Identifier identifier = Identifier.of(BetterEndIslands.MOD_ID, name);

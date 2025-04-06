@@ -23,6 +23,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ItemTags.PLANKS).setReplace(false)
                 .add(ModBlocks.CHORUS_PLANKS.asItem());
 
+        getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN).setReplace(false)
+                .add(ModBlocks.CHORUS_LOG.asItem());
+
         getOrCreateTagBuilder(ItemTags.STONE_TOOL_MATERIALS).setReplace(false)
                 .add(Blocks.END_STONE.asItem());
     }
