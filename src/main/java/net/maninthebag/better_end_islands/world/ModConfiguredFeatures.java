@@ -14,6 +14,7 @@ import net.minecraft.world.gen.feature.FeatureConfig;
 import net.minecraft.world.gen.feature.TreeFeatureConfig;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
+import net.minecraft.world.gen.foliage.JungleFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.treedecorator.LeavesVineTreeDecorator;
 import net.minecraft.world.gen.treedecorator.TrunkVineTreeDecorator;
@@ -29,8 +30,9 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.of(ModBlocks.CHORUS_LOG),
                 new MegaJungleTrunkPlacer(10,2,19),
                 BlockStateProvider.of(ModBlocks.CHORUS_LEAVES),
-                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 2),
+                new JungleFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 2),
                 new TwoLayersFeatureSize(1, 1,2)).build());
+
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String name) {

@@ -28,6 +28,8 @@ public class BetterEndIslandsDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModLootTableProvider::new);
 
 		pack.addProvider(ModRegistryDataGenerator::new);
+
+		pack.addProvider(ModLanguageProvider::new);
 	}
 
 	@Override

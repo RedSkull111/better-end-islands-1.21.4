@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "better_end_islands:block/chorus_planks"
+  }
+}

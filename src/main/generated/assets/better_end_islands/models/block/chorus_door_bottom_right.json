@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "better_end_islands:block/chorus_door_bottom",
+    "top": "better_end_islands:block/chorus_door_top"
+  }
+}

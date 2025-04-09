@@ -1,3 +1,13 @@
 // 1.21.4	-999999999-01-01T00:00:00	Better End Islands/Tags for minecraft:item
+e453c13c482c2ecc761410a8d6a211d5168e53f3 data/better_end_islands/tags/item/chorus_logs.json
+75db8aa2c1bede549799fbbf8b02c5a3ec63c390 data/minecraft/tags/item/fence_gates.json
+c2f872c7d9054a26b01f1f6cc9728cc07394f1fd data/minecraft/tags/item/logs_that_burn.json
 e30c40c7f488126ad7ac03c2fde99e617e4b5493 data/minecraft/tags/item/planks.json
 9994f212884e8264af96eaba34aa7e89696d8994 data/minecraft/tags/item/stone_tool_materials.json
+41acae14229f2ec61fba68c92bd6e9ac39fd4e8a data/minecraft/tags/item/wooden_buttons.json
+c6947dcea59fc295c2c459de57f97d8f2c6137e7 data/minecraft/tags/item/wooden_doors.json
+017b67dd81d632c6e7b30aa8449ce46a898df41c data/minecraft/tags/item/wooden_fences.json
+077a3b91da8b61f0b7218b39a8f54a1b80ab4add data/minecraft/tags/item/wooden_pressure_plates.json
+88f202cbe99d7898c3c7f224ebdaf04cd5177a08 data/minecraft/tags/item/wooden_slabs.json
+41469d569ba4be80746bfd17778c36d361864a89 data/minecraft/tags/item/wooden_stairs.json
+1fe932ddd8fa2a5777fd27514bc19fbd46d7d70d data/minecraft/tags/item/wooden_trapdoors.json

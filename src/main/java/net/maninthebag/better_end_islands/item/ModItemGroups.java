@@ -25,9 +25,31 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.CHORUS_PLANKS);
 
+                        entries.add(ModBlocks.CHORUS_STAIRS);
+                        entries.add(ModBlocks.CHORUS_SLAB);
+                        entries.add(ModBlocks.CHORUS_FENCE);
+
+                        entries.add(ModBlocks.CHORUS_FENCE_GATE);
+                        entries.add(ModBlocks.CHORUS_DOOR);
+                        entries.add(ModBlocks.CHORUS_TRAPDOOR);
+
+                        entries.add(ModBlocks.CHORUS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.CHORUS_BUTTON);
+
                         entries.add(ModBlocks.CHORUS_LEAVES);
                         entries.add(ModBlocks.CHORUS_SAPLING);
 
+                        //Bloodwood Wood
+                        entries.add(ModBlocks.BLOODWOOD_LOG);
+                        entries.add(ModBlocks.BLOODWOOD_WOOD);
+
+                        entries.add(ModBlocks.STRIPPED_BLOODWOOD_LOG);
+                        entries.add(ModBlocks.STRIPPED_BLOODWOOD_WOOD);
+
+                        //Ores
+                        entries.add(ModBlocks.ENDERITE_ORE);
+
+                        //Tests
                         entries.add(ModBlocks.TEST_BLOCK);
 
                         entries.add(ModItems.TEST_ITEM);
