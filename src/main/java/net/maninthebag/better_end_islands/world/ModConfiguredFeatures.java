@@ -3,6 +3,7 @@ package net.maninthebag.better_end_islands.world;
 import com.google.common.collect.ImmutableList;
 import net.maninthebag.better_end_islands.BetterEndIslands;
 import net.maninthebag.better_end_islands.block.ModBlocks;
+import net.minecraft.block.Blocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -31,7 +32,7 @@ public class ModConfiguredFeatures {
                 new MegaJungleTrunkPlacer(10,2,19),
                 BlockStateProvider.of(ModBlocks.CHORUS_LEAVES),
                 new JungleFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 2),
-                new TwoLayersFeatureSize(1, 1,2)).build());
+                new TwoLayersFeatureSize(1, 1,2)).dirtProvider(BlockStateProvider.of(Blocks.END_STONE)).build());
 
     }
 

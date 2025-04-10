@@ -20,7 +20,7 @@ public class ModPlacedFeatures {
 
         register(context, CHORUS_TREE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.CHORUS_TREE_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
-                        PlacedFeatures.createCountExtraModifier(2,0.1f,2), ModBlocks.CHORUS_SAPLING));
+                        PlacedFeatures.createCountExtraModifier(2,0.1f,2),  ModBlocks.CHORUS_SAPLING));
     }
 
     public static RegistryKey<PlacedFeature> registryKey(String name) {

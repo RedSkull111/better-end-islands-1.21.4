@@ -36,15 +36,18 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CHORUS_PRESSURE_PLATE);
                         entries.add(ModBlocks.CHORUS_BUTTON);
 
-                        entries.add(ModBlocks.CHORUS_LEAVES);
-                        entries.add(ModBlocks.CHORUS_SAPLING);
-
                         //Bloodwood Wood
                         entries.add(ModBlocks.BLOODWOOD_LOG);
                         entries.add(ModBlocks.BLOODWOOD_WOOD);
 
                         entries.add(ModBlocks.STRIPPED_BLOODWOOD_LOG);
                         entries.add(ModBlocks.STRIPPED_BLOODWOOD_WOOD);
+
+                        //Leaves
+                        entries.add(ModBlocks.CHORUS_LEAVES);
+
+                        //Saplings
+                        entries.add(ModBlocks.CHORUS_SAPLING);
 
                         //Ores
                         entries.add(ModBlocks.ENDERITE_ORE);
