@@ -1,13 +1,14 @@
 {
-  "type": "minecraft:end",
+  "type": "better_end_islands:end_islands_type",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "minecraft:floating_islands",
+    "settings": "better_end_islands:end_islands_noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
+      "preset": "",
       "biomes": [
         {
-          "biome": "minecraft:plains",
+          "biome": "better_end_islands:chorus_jungle",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -20,7 +21,5 @@
         }
       ]
     }
-  }
-}
   }
 }

@@ -47,7 +47,7 @@ public class ModBlocks {
 
     public static final Block CHORUS_LEAVES = registerBlock("chorus_leaves", LeavesBlock::new, AbstractBlock.Settings.copy(Blocks.OAK_LEAVES));
 
-    public static final Block CHORUS_SAPLING = registerBlock("chorus_sapling", settings -> new ModSaplingBlock(ModSaplingGenerators.CHORUS_TREE,settings,Blocks.END_STONE),AbstractBlock.Settings.copy(Blocks.DARK_OAK_SAPLING));
+    public static final Block CHORUS_SAPLING = registerBlock("chorus_sapling", settings -> new ModSaplingBlock(ModSaplingGenerators.CHORUS_TREE,settings,Blocks.GRASS_BLOCK),AbstractBlock.Settings.copy(Blocks.DARK_OAK_SAPLING));
 
     //BloodWood Wood
     public static final Block BLOODWOOD_LOG = registerBlock("bloodwood_log", PillarBlock::new, AbstractBlock.Settings.copy(Blocks.OAK_LOG));

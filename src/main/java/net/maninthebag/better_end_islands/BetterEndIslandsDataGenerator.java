@@ -7,6 +7,8 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.maninthebag.better_end_islands.datagen.*;
 import net.maninthebag.better_end_islands.world.ModConfiguredFeatures;
 import net.maninthebag.better_end_islands.world.ModPlacedFeatures;
+import net.maninthebag.better_end_islands.world.biome.ModBiomes;
+import net.maninthebag.better_end_islands.world.dimension.ModDimensions;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -36,5 +38,9 @@ public class BetterEndIslandsDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
+
+		registryBuilder.addRegistry(RegistryKeys.BIOME, ModBiomes::bootstrap);
+
+		registryBuilder.addRegistry(RegistryKeys.DIMENSION_TYPE, ModDimensions::bootstrapType);
 	}
 }

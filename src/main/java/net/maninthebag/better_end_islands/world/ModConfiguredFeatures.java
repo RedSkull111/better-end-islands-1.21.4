@@ -32,7 +32,7 @@ public class ModConfiguredFeatures {
                 new MegaJungleTrunkPlacer(10,2,19),
                 BlockStateProvider.of(ModBlocks.CHORUS_LEAVES),
                 new JungleFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 2),
-                new TwoLayersFeatureSize(1, 1,2)).dirtProvider(BlockStateProvider.of(Blocks.END_STONE)).build());
+                new TwoLayersFeatureSize(1, 1,2)).dirtProvider(BlockStateProvider.of(Blocks.GRASS_BLOCK)).build());
 
     }
 
